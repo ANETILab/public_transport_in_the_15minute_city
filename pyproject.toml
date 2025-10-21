@@ -45,6 +45,7 @@ types-geopandas = "^1.0"
 types-shapely = "^2.0"
 types-pyyaml = "^6.0"
 rich = "^13.7"
+types-networkx = "^3.5"
 
 [build-system]
 requires = ["poetry-core"]
