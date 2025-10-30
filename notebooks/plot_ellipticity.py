@@ -307,7 +307,7 @@ if __name__ == "__main__":
         crs=crs[opts.city],
     )
 
-    for i in ["png"]:
+    for i in ["png", "svg", "pdf"]:
         fig.savefig(
             f"../output/{opts.city}/{opts.data_version}/ellipticity_jenks.{i}",
             dpi=300,
@@ -319,7 +319,7 @@ if __name__ == "__main__":
     fig, ax = plot_histogram(
         gpd.clip(to_plot, boundary_polygon).query("ellipticity.notna()")
     )
-    for i in ["png"]:
+    for i in ["png", "svg", "pdf"]:
         fig.savefig(
             f"../output/{opts.city}/{opts.data_version}/ellipticity_histogram.{i}",
             dpi=300,
