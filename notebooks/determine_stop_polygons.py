@@ -200,7 +200,8 @@ if __name__ == "__main__":
     crs = load_crs()
 
     with open(
-        f"../data/stops/{opts.city}/{opts.data_version}/accessible_stops.json", "r"
+        f"../data/stops/{opts.city}/{opts.data_version}/clustered_accessible_stops.json",
+        "r",
     ) as fp:
         accessible_stops = json.load(fp)
 
