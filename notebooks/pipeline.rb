@@ -31,6 +31,7 @@ end
 if options[:stages].include? "1"
     puts "[stage 1] calculate_accessibility"
     %x(poetry run python calculate_accessibility.py --city #{options[:city]} --data-version "#{options[:data_version]}")
+    %x(poetry run python create_clustered_stops_inputs.py --city #{options[:city]} --data-version "#{options[:data_version]}")
 end
 if options[:stages].include? "2"
     puts "[stage 2] determine_stop_polygons"
