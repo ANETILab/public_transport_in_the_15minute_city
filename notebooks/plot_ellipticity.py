@@ -1,4 +1,5 @@
 import math
+from typing import Optional
 
 import contextily as cx
 import folium
@@ -198,8 +199,10 @@ def plot_stops(
     boundary: gpd.GeoDataFrame,
     column: str,
     crs: int,
+    bins: Optional[list[float]] = None,
 ) -> tuple[plt.Figure, plt.Axes]:
-    bins = determine_bins(data, column)
+    if not bins:
+        bins = determine_bins(data, column)
 
     fig = plt.figure(figsize=(6, 6))
     ax = fig.add_axes([0, 0, 1, 1], frameon=False, xticks=[], yticks=[])
