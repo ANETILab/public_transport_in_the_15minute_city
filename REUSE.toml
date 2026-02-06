@@ -59,3 +59,10 @@ path = ["**/.gitignore", "CITATION.cff", "plotting_config.yaml", "pyproject.toml
 precedence = "override"
 SPDX-FileCopyrightText = "2025 Gergő Pintér"
 SPDX-License-Identifier = "0BSD"
+
+
+[[annotations]]
+path = ["data/fontawesome/*"]
+precedence = "override"
+SPDX-FileCopyrightText = "2024 Fonticons, Inc. (https://fontawesome.com)"
+SPDX-License-Identifier = "OFL-1.1"
