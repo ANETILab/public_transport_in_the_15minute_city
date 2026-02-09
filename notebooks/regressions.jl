@@ -818,12 +818,15 @@ CSV.write("$(output)/SI_summary_madrid.csv", mad_sum);
 
 
 open("$(output)/SI_summary_bp.tex", "w") do io
-    pretty_table(io, bud_sum, backend = Val(:latex); show_subheader=false, label = "tab:budapest_stats", title = "Summary Statistics for Budapest", wrap_table = true)
+#     pretty_table(io, bud_sum, backend = :latex; show_subheader=false, label = "tab:budapest_stats", title = "Summary Statistics for Budapest", wrap_table = true)
+    pretty_table(io, bud_sum, backend = :latex; title = "Summary Statistics for Budapest")
 end
 open("$(output)/SI_summary_helsinki.tex", "w") do io
-    pretty_table(io, hel_sum, backend = Val(:latex); show_subheader=false, label = "tab:helsinki_stats", title = "Summary Statistics for Helsinki", wrap_table = true)
+#     pretty_table(io, hel_sum, backend = Val(:latex); show_subheader=false, label = "tab:helsinki_stats", title = "Summary Statistics for Helsinki", wrap_table = true)
+    pretty_table(io, hel_sum, backend = :latex; title = "Summary Statistics for Helsinki")
 end
 open("$(output)/SI_summary_madrid.tex", "w") do io
-    pretty_table(io, mad_sum, backend = Val(:latex); show_subheader=false, label = "tab:madrid_stats", title = "Summary Statistics for Madrid", wrap_table = true)
+#     pretty_table(io, mad_sum, backend = Val(:latex); show_subheader=false, label = "tab:madrid_stats", title = "Summary Statistics for Madrid", wrap_table = true)
+    pretty_table(io, mad_sum, backend = :latex; title = "Summary Statistics for Madrid")
 end
 
