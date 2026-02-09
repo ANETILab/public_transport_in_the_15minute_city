@@ -63,5 +63,5 @@ if options[:stages].include? "8"
 end
 if options[:stages].include? "9"
     puts "[stage 9] run regressions"
-    %x(julia regressions.jl")
+    %x(julia regressions.jl)
 end
