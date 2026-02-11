@@ -35,6 +35,9 @@ output/regression/*
 !output/regression/*.tex
 !output/regression/*.txt
 
+!output/figures
+!output/figures/*
+
 
 .vscode/*
 !.vscode/kanban.json
