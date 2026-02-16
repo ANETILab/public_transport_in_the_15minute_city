@@ -1,5 +1,7 @@
 formats:
     - png
+    - pdf
+    - svg
 metadata:
     png:
         Author: "Gergő Pintér"
