@@ -13,7 +13,7 @@ SPDX-FileCopyrightText = "2025 Zsófia Zádor, Gergő Pintér, Máté Mizsák, B
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = ["README.md", "data/**/README.md", ".github/*.png", "output/**/isochrones*", "data/crs.yaml", "data/stops/**/stops_test.csv", "data/essential_amenities.yaml"]
+path = ["README.md", "data/**/README.md", ".github/*.png", "output/**/isochrones*", "output/figures/*", "data/crs.yaml", "data/stops/**/stops_test.csv", "data/essential_amenities.yaml", "data/osm/budapest/routes/*.overpassql"]
 precedence = "override"
 SPDX-FileCopyrightText = "2025 Gergő Pintér"
 SPDX-License-Identifier = "CC-BY-4.0"
@@ -25,13 +25,13 @@ SPDX-FileCopyrightText = "2025 Zsófia Zádor"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = ["data/stops/**/stops_with_centrality.csv", "data/stops/**/accessible_stops.json", "data/stops/**/*.pkl", "data/stops/**/*.pkl.gz", "data/stops/**/*.pkl.xz"]
+path = ["data/stops/**/stops_with_centrality.csv", "data/stops/**/accessible_stops.json", "data/stops/**/clustered_stops.csv", "data/stops/**/*.pkl", "data/stops/**/*.pkl.gz", "data/stops/**/*.pkl.xz"]
 precedence = "override"
 SPDX-FileCopyrightText = "2025 Máté Mizsák"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = ["data/osm/**/boundary*.geojson", "data/geojson/*", "data/osm/budapest/budapest_districts_without_margaret_island.geojson"]
+path = ["data/osm/**/boundary*.geojson", "data/geojson/*", "data/osm/budapest/budapest_districts_without_margaret_island.geojson", "data/osm/budapest/routes/*.geojson"]
 precedence = "override"
 SPDX-FileCopyrightText = "OpenStreetMap contributors"
 SPDX-License-Identifier = "ODbL-1.0"
