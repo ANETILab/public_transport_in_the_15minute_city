@@ -1,0 +1,1512 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-05T13:00:35Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4121435",
+        "colour": "#4CA22F",
+        "from": "Kelenföld vasútállomás",
+        "name": "M4 => Keleti pályaudvar",
+        "network": "Budapesti metró",
+        "network:wikidata": "Q211044",
+        "network:wikipedia": "hu:Budapesti metró",
+        "operator": "BKV",
+        "operator:wikidata": "Q745664",
+        "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+        "public_transport:version": "2",
+        "ref": "M4",
+        "route": "subway",
+        "to": "Keleti pályaudvar",
+        "type": "route",
+        "wikidata": "Q832651",
+        "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.0195705,
+            47.4643071
+          ],
+          [
+            19.0206349,
+            47.4642486
+          ],
+          [
+            19.0221304,
+            47.4641514
+          ],
+          [
+            19.0226651,
+            47.4641241
+          ],
+          [
+            19.0230641,
+            47.4641044
+          ],
+          [
+            19.0236589,
+            47.4640396
+          ],
+          [
+            19.0239939,
+            47.4640019
+          ],
+          [
+            19.0242108,
+            47.4639878
+          ],
+          [
+            19.0245279,
+            47.4639713
+          ],
+          [
+            19.0250019,
+            47.4639874
+          ],
+          [
+            19.0253658,
+            47.4640175
+          ],
+          [
+            19.0257097,
+            47.4640496
+          ],
+          [
+            19.0260859,
+            47.4640872
+          ],
+          [
+            19.0268281,
+            47.4641501
+          ],
+          [
+            19.0272528,
+            47.464174
+          ],
+          [
+            19.0277314,
+            47.4642172
+          ],
+          [
+            19.0287614,
+            47.4643333
+          ],
+          [
+            19.0292645,
+            47.4643838
+          ],
+          [
+            19.0297246,
+            47.4644448
+          ],
+          [
+            19.0302272,
+            47.4645127
+          ],
+          [
+            19.0307775,
+            47.4645848
+          ],
+          [
+            19.0320057,
+            47.4648008
+          ],
+          [
+            19.0322451,
+            47.4648443
+          ],
+          [
+            19.0324303,
+            47.4648856
+          ],
+          [
+            19.0334189,
+            47.4651353
+          ],
+          [
+            19.0419071,
+            47.4674011
+          ],
+          [
+            19.042423,
+            47.4675579
+          ],
+          [
+            19.0427449,
+            47.4676676
+          ],
+          [
+            19.0431593,
+            47.4678774
+          ],
+          [
+            19.0434291,
+            47.4680437
+          ],
+          [
+            19.0437217,
+            47.4682356
+          ],
+          [
+            19.04395,
+            47.4684296
+          ],
+          [
+            19.0441142,
+            47.4685754
+          ],
+          [
+            19.0443771,
+            47.468805
+          ],
+          [
+            19.0445261,
+            47.4689815
+          ],
+          [
+            19.044632,
+            47.4691861
+          ],
+          [
+            19.0447173,
+            47.469348
+          ],
+          [
+            19.0449911,
+            47.4699606
+          ],
+          [
+            19.0451578,
+            47.4704334
+          ],
+          [
+            19.045417,
+            47.4712189
+          ],
+          [
+            19.0456492,
+            47.471736
+          ],
+          [
+            19.046127,
+            47.4728843
+          ],
+          [
+            19.0463845,
+            47.4735353
+          ],
+          [
+            19.0472577,
+            47.4760399
+          ],
+          [
+            19.0473794,
+            47.4766161
+          ],
+          [
+            19.0475541,
+            47.4772486
+          ],
+          [
+            19.0477426,
+            47.4777909
+          ],
+          [
+            19.0481509,
+            47.4782924
+          ],
+          [
+            19.0486115,
+            47.4788431
+          ],
+          [
+            19.0487885,
+            47.4790225
+          ],
+          [
+            19.0489973,
+            47.4792366
+          ],
+          [
+            19.0492344,
+            47.4794495
+          ],
+          [
+            19.0494291,
+            47.4796133
+          ],
+          [
+            19.0496733,
+            47.4798155
+          ],
+          [
+            19.0498768,
+            47.4799757
+          ],
+          [
+            19.0502095,
+            47.4802042
+          ],
+          [
+            19.0504926,
+            47.4803847
+          ],
+          [
+            19.0507864,
+            47.4805653
+          ],
+          [
+            19.0539255,
+            47.482488
+          ],
+          [
+            19.0540708,
+            47.4825706
+          ],
+          [
+            19.0549736,
+            47.4830846
+          ],
+          [
+            19.0553,
+            47.4832936
+          ],
+          [
+            19.0558051,
+            47.4836795
+          ],
+          [
+            19.056581,
+            47.4843223
+          ],
+          [
+            19.0571079,
+            47.4849214
+          ],
+          [
+            19.057475,
+            47.4854854
+          ],
+          [
+            19.0581308,
+            47.486493
+          ],
+          [
+            19.0583696,
+            47.486872
+          ],
+          [
+            19.0586135,
+            47.4871939
+          ],
+          [
+            19.0588348,
+            47.4874171
+          ],
+          [
+            19.059371,
+            47.487874
+          ],
+          [
+            19.0610891,
+            47.4888195
+          ],
+          [
+            19.061954,
+            47.4892269
+          ],
+          [
+            19.0630541,
+            47.4897039
+          ],
+          [
+            19.0640611,
+            47.4901301
+          ],
+          [
+            19.0691023,
+            47.4920048
+          ],
+          [
+            19.0699025,
+            47.4922669
+          ],
+          [
+            19.0705625,
+            47.4924216
+          ],
+          [
+            19.0714516,
+            47.4925855
+          ],
+          [
+            19.0725143,
+            47.4927702
+          ],
+          [
+            19.0738737,
+            47.4930297
+          ],
+          [
+            19.0747277,
+            47.4932499
+          ],
+          [
+            19.0753797,
+            47.4935394
+          ],
+          [
+            19.076126,
+            47.4939726
+          ],
+          [
+            19.0767672,
+            47.4945133
+          ],
+          [
+            19.0774348,
+            47.4955223
+          ],
+          [
+            19.077771,
+            47.4960998
+          ],
+          [
+            19.0789787,
+            47.4980996
+          ],
+          [
+            19.0792863,
+            47.4986089
+          ],
+          [
+            19.0796473,
+            47.4990803
+          ],
+          [
+            19.0804833,
+            47.4996624
+          ],
+          [
+            19.0807919,
+            47.499837
+          ],
+          [
+            19.0817093,
+            47.5003561
+          ],
+          [
+            19.0818237,
+            47.5004208
+          ]
+        ]
+      },
+      "id": "relation/4121435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4121436",
+        "colour": "#4CA22F",
+        "from": "Keleti pályaudvar",
+        "name": "M4 => Kelenföld vasútállomás",
+        "network": "Budapesti metró",
+        "network:wikidata": "Q211044",
+        "network:wikipedia": "hu:Budapesti metró",
+        "operator": "BKV",
+        "operator:wikidata": "Q745664",
+        "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+        "public_transport:version": "2",
+        "ref": "M4",
+        "route": "subway",
+        "to": "Kelenföld vasútállomás",
+        "type": "route",
+        "wikidata": "Q832651",
+        "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.0817395,
+            47.5005521
+          ],
+          [
+            19.0816601,
+            47.5005039
+          ],
+          [
+            19.0807974,
+            47.5000068
+          ],
+          [
+            19.0806725,
+            47.499935
+          ],
+          [
+            19.0804055,
+            47.4997816
+          ],
+          [
+            19.079491,
+            47.4991458
+          ],
+          [
+            19.0791327,
+            47.4986762
+          ],
+          [
+            19.0788163,
+            47.4981393
+          ],
+          [
+            19.0772964,
+            47.4955602
+          ],
+          [
+            19.0766446,
+            47.4945492
+          ],
+          [
+            19.0760385,
+            47.49405
+          ],
+          [
+            19.0752771,
+            47.493605
+          ],
+          [
+            19.0746593,
+            47.4933489
+          ],
+          [
+            19.0738419,
+            47.4931273
+          ],
+          [
+            19.0734519,
+            47.4930575
+          ],
+          [
+            19.0724272,
+            47.4928741
+          ],
+          [
+            19.0714014,
+            47.4926904
+          ],
+          [
+            19.0705006,
+            47.4925309
+          ],
+          [
+            19.0698621,
+            47.4923834
+          ],
+          [
+            19.0690296,
+            47.4921049
+          ],
+          [
+            19.0641322,
+            47.490316
+          ],
+          [
+            19.062839,
+            47.4897807
+          ],
+          [
+            19.0615063,
+            47.4892161
+          ],
+          [
+            19.0609103,
+            47.4889365
+          ],
+          [
+            19.0594342,
+            47.4880684
+          ],
+          [
+            19.0587136,
+            47.4874644
+          ],
+          [
+            19.0584758,
+            47.4872304
+          ],
+          [
+            19.0582457,
+            47.4869107
+          ],
+          [
+            19.0579898,
+            47.4865317
+          ],
+          [
+            19.0574969,
+            47.4858129
+          ],
+          [
+            19.0573165,
+            47.4855333
+          ],
+          [
+            19.0569582,
+            47.4849778
+          ],
+          [
+            19.0564585,
+            47.4844115
+          ],
+          [
+            19.0557028,
+            47.4837786
+          ],
+          [
+            19.0551723,
+            47.4833709
+          ],
+          [
+            19.0548787,
+            47.4831802
+          ],
+          [
+            19.0540405,
+            47.4827076
+          ],
+          [
+            19.0534489,
+            47.4823377
+          ],
+          [
+            19.0527699,
+            47.4819185
+          ],
+          [
+            19.0509559,
+            47.4807818
+          ],
+          [
+            19.0503245,
+            47.4803739
+          ],
+          [
+            19.0497254,
+            47.4799532
+          ],
+          [
+            19.0491567,
+            47.4794995
+          ],
+          [
+            19.048538,
+            47.4788871
+          ],
+          [
+            19.0480326,
+            47.478316
+          ],
+          [
+            19.0476105,
+            47.4778133
+          ],
+          [
+            19.0474229,
+            47.4772914
+          ],
+          [
+            19.0472593,
+            47.4766126
+          ],
+          [
+            19.0471328,
+            47.4760528
+          ],
+          [
+            19.0462516,
+            47.4735442
+          ],
+          [
+            19.0459836,
+            47.4728946
+          ],
+          [
+            19.0454836,
+            47.471696
+          ],
+          [
+            19.0450603,
+            47.4705031
+          ],
+          [
+            19.0446454,
+            47.4693446
+          ],
+          [
+            19.0445412,
+            47.4691319
+          ],
+          [
+            19.0444667,
+            47.4690179
+          ],
+          [
+            19.0443301,
+            47.468842
+          ],
+          [
+            19.0440575,
+            47.4686069
+          ],
+          [
+            19.0438774,
+            47.4684454
+          ],
+          [
+            19.0436744,
+            47.4682658
+          ],
+          [
+            19.043392,
+            47.4680811
+          ],
+          [
+            19.0431095,
+            47.4679133
+          ],
+          [
+            19.0427076,
+            47.4677139
+          ],
+          [
+            19.042391,
+            47.467604
+          ],
+          [
+            19.0418904,
+            47.467454
+          ],
+          [
+            19.0333854,
+            47.465194
+          ],
+          [
+            19.0323996,
+            47.4649438
+          ],
+          [
+            19.032219,
+            47.464903
+          ],
+          [
+            19.0319821,
+            47.4648604
+          ],
+          [
+            19.0307579,
+            47.4646452
+          ],
+          [
+            19.0290703,
+            47.4644266
+          ],
+          [
+            19.0272172,
+            47.4642833
+          ],
+          [
+            19.0253275,
+            47.4641549
+          ],
+          [
+            19.0246336,
+            47.4641389
+          ],
+          [
+            19.0239994,
+            47.4641582
+          ],
+          [
+            19.0226992,
+            47.4642368
+          ],
+          [
+            19.0221485,
+            47.464257
+          ],
+          [
+            19.019581,
+            47.4644272
+          ]
+        ]
+      },
+      "id": "relation/4121436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1511664309",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.019581,
+          47.4644272
+        ]
+      },
+      "id": "node/1511664309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1511664345",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0472593,
+          47.4766126
+        ]
+      },
+      "id": "node/1511664345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1511664353",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0323996,
+          47.4649438
+        ]
+      },
+      "id": "node/1511664353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1511664373",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0581308,
+          47.486493
+        ]
+      },
+      "id": "node/1511664373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1511664402",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0609103,
+          47.4889365
+        ]
+      },
+      "id": "node/1511664402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1511664432",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0459836,
+          47.4728946
+        ]
+      },
+      "id": "node/1511664432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3015240332",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0206349,
+          47.4642486
+        ]
+      },
+      "id": "node/3015240332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3015241858",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0334189,
+          47.4651353
+        ]
+      },
+      "id": "node/3015241858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3015241901",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0475541,
+          47.4772486
+        ]
+      },
+      "id": "node/3015241901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3015241931",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0549736,
+          47.4830846
+        ]
+      },
+      "id": "node/3015241931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3015242096",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.077771,
+          47.4960998
+        ]
+      },
+      "id": "node/3015242096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3098753586",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0574969,
+          47.4858129
+        ]
+      },
+      "id": "node/3098753586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975871",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0772964,
+          47.4955602
+        ]
+      },
+      "id": "node/3138975871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975872",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0807974,
+          47.5000068
+        ]
+      },
+      "id": "node/3138975872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975873",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0818237,
+          47.5004208
+        ]
+      },
+      "id": "node/3138975873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975874",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.061954,
+          47.4892269
+        ]
+      },
+      "id": "node/3138975874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975875",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0714014,
+          47.4926904
+        ]
+      },
+      "id": "node/3138975875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975876",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0725143,
+          47.4927702
+        ]
+      },
+      "id": "node/3138975876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138975877",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121436,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Keleti pályaudvar",
+              "name": "M4 => Kelenföld vasútállomás",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Kelenföld vasútállomás",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0540405,
+          47.4827076
+        ]
+      },
+      "id": "node/3138975877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3138976712",
+        "@relations": [
+          {
+            "role": "stop",
+            "rel": 4121435,
+            "reltags": {
+              "colour": "#4CA22F",
+              "from": "Kelenföld vasútállomás",
+              "name": "M4 => Keleti pályaudvar",
+              "network": "Budapesti metró",
+              "network:wikidata": "Q211044",
+              "network:wikipedia": "hu:Budapesti metró",
+              "operator": "BKV",
+              "operator:wikidata": "Q745664",
+              "operator:wikipedia": "hu:Budapesti Közlekedési Zrt.",
+              "public_transport:version": "2",
+              "ref": "M4",
+              "route": "subway",
+              "to": "Keleti pályaudvar",
+              "type": "route",
+              "wikidata": "Q832651",
+              "wikipedia": "en:Metro Line M4 (Budapest Metro)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0463845,
+          47.4735353
+        ]
+      },
+      "id": "node/3138976712"
+    }
+  ]
+}
