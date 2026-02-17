@@ -1338,6 +1338,21 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "matplotlib-scalebar"
+version = "0.9.0"
+description = "Artist for matplotlib to display a scale bar"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "matplotlib_scalebar-0.9.0-py3-none-any.whl", hash = "sha256:5140525cd4e0c60bcade541b86571dabaf446fa69192530bd82d60b54601aa79"},
+    {file = "matplotlib_scalebar-0.9.0.tar.gz", hash = "sha256:f91adc5e4e67ac920a8fa98a55f904d56e5c2da4d56286748c31ec62146362be"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+
+[[package]]
 name = "mdurl"
 version = "0.1.2"
 description = "Markdown URL utilities"
@@ -3076,4 +3091,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "3.11.*"
-content-hash = "c3a57ddb8b83ce351420e922f158e38882e95d006ef482ebecfe60ad663aa566"
+content-hash = "632e56262d503cfb2c07616797844b2076b95311d059db6043728919e6cd0d32"
