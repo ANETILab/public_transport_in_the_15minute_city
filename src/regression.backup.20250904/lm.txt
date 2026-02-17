@@ -1,0 +1,24 @@
+
+Call:
+lm(formula = gini_diff ~ gini_walk15 + area_difference + ellipticity + 
+    distance_betweenness, data = bp)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.108896 -0.012161 -0.001258  0.009385  0.120305 
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           7.551e-02  2.052e-03  36.799   <2e-16 ***
+gini_walk15          -3.425e-01  8.562e-03 -40.007   <2e-16 ***
+area_difference       6.990e-05  1.326e-04   0.527    0.598    
+ellipticity           1.615e-02  1.483e-03  10.887   <2e-16 ***
+distance_betweenness -3.329e-03  9.779e-05 -34.044   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01785 on 4419 degrees of freedom
+  (2 observations deleted due to missingness)
+Multiple R-squared:  0.3032,	Adjusted R-squared:  0.3026 
+F-statistic: 480.8 on 4 and 4419 DF,  p-value: < 2.2e-16
+
