@@ -95,36 +95,36 @@ First example is Fővám square (blue), its ellipticity is low (0.06), whereas t
 <img src=".github/fovam_accessibility_area.png" alt="Fővám tér" title="Fővám tér - 0.06" width="250">
 <img src=".github/509_accessibility_area.png" alt="509. utca" title="509.utca - 0.61" width="300">
 
-The ellipticity $ E $ is calculated using the following steps:
 
-1. **Covariance Matrix**: The covariance matrix $ C $ of the points $ (x_i, y_i) $ is computed.
+The ellipticity $E$ is calculated using the following steps:
 
-   $$
+1. **Covariance Matrix**: The covariance matrix $C$ of the points $(x_i, y_i)$ is computed.
+
+$$
    C = \begin{pmatrix}
    \text{Cov}(x, x) & \text{Cov}(x, y) \\
    \text{Cov}(y, x) & \text{Cov}(y, y)
    \end{pmatrix}
-  $$ 
+$$ 
 
-2. **Eigenvalues**: The eigenvalues $ \lambda_1 $ and $ \lambda_2 $ of the covariance matrix $ C $ are then calculated.
+2. **Eigenvalues**: The eigenvalues $\lambda_1$ and $\lambda_2$ of the covariance matrix $C$ are then calculated.
 
 3. **Major and Minor Axis Lengths**:
    - The lengths of the semi-major and semi-minor axes are given by:
    
-   $$
+$$
    a = \sqrt{\lambda_1}, \quad b = \sqrt{\lambda_2}
-   $$
+$$
 
-4. **Ellipticity**: Finally, the ellipticity $ E $ is computed as:
+4. **Ellipticity**: Finally, the ellipticity $E$ is computed as:
    
-  $$
+$$
    E = 1 - \frac{b}{a}
-  $$
+$$
 
-  $$
+$$
   E = 1 - \frac{\sqrt{\lambda_2}}{\sqrt{\lambda_1}}
-  $$
-
+$$
 
 
 ## Accessibility polygons
