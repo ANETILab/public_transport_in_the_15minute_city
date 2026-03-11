@@ -87,18 +87,9 @@ Still, both of them is provided.
 
 ## Ellipticity
 
-Ellipticity is an indicator describing the shape of a polygon.
-Its domain is between 0 and 1, the larger the value is the shape of the polygon is more elongated.
-
-First example is Fővám square (blue), its ellipticity is low (0.06), whereas the 509th street (red) is much more elongated, its ellipticity is high (0.61).
-
-<img src=".github/fovam_accessibility_area.png" alt="Fővám tér" title="Fővám tér - 0.06" width="250">
-<img src=".github/509_accessibility_area.png" alt="509. utca" title="509.utca - 0.61" width="300">
-
-
 The ellipticity $E$ is calculated using the following steps:
 
-1. **Covariance Matrix**: The covariance matrix $C$ of the points $(x_i, y_i)$ is computed.
+1. **Covariance Matrix**: The covariance matrix $C$ of the points (the geographic coordinates of the accessible stops) is computed.
 
 $$
    C = \begin{pmatrix}
@@ -126,6 +117,12 @@ $$
   E = 1 - \frac{\sqrt{\lambda_2}}{\sqrt{\lambda_1}}
 $$
 
+Then, ellipticity is computed for every stop cluster.
+Its domain is between 0 and 1, the larger the value the shape of the polygon is more elongated.
+The figure below shows two examples, a rather circular one downtown ("Margit híd, budai hídfő") with the ellipticity of 0.1142.
+The example is an elongated access area with the ellipticity of 0.9134 from the outskirts ("513. utca").
+
+![Ellipticity examples. A more circular (left, the ellipticity is 0.1142), and an elongated accessibility area (right,  the ellipticity is 0.9134)](.github/ellipticity_examples.png)
 
 ## Accessibility polygons
 
