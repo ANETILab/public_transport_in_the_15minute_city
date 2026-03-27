@@ -10,6 +10,9 @@ output/budapest/*
 output/budapest/*/*
 !output/budapest/*/stop_socioecon.csv
 !output/budapest/*/indicators_with_ses.csv
+!output/budapest/*/multimodal_stop_gini.csv
+!output/budapest/*/walk15_stop_gini.csv
+
 
 !output/helsinki
 output/helsinki/*
