@@ -6,10 +6,6 @@ city = "helsinki"
 osm_file = "finland-20250314.osm.pbf"
 city = "madrid"
 osm_file = "madrid-20250123.osm.pbf"
-city = "rotterdam"
-osm_file = "zuid-holland-20250123.osm.pbf"
-city = "paris"
-osm_file = "ile-de-france-20250123.osm.pbf"
 
 categories = ["amenity", "leisure", "office", "shop", "tourism"]
 categories.each do |category|
