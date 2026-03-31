@@ -46,3 +46,5 @@ output/regression/*
 !.vscode/kanban.json
 
 untracked/*
+
+paper/*
