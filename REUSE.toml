@@ -55,7 +55,7 @@ SPDX-FileCopyrightText = "Instituto Nacional de Estadística"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = "data/gtfs/budapest/*"
+path = "data/gtfs/budapest/**/*.txt.gz"
 precedence = "override"
 SPDX-FileCopyrightText = "BKK Zrt."
 SPDX-License-Identifier = "CC-BY-4.0"
