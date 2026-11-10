@@ -1,0 +1,25 @@
+variable,coef,std_error,model,city,type
+intercept,0.12347850617838477,0.0026842943137225252,helsinki1_noint,Helsinki,all
+intercept,6.351233648161945,0.17113402189566626,madrid1_noint,Madrid,all
+intercept,0.023255989485592543,0.00484056009937712,bp2_noint,Budapest (residental),all
+intercept,0.06526553448452393,0.0020117468929537084,bp1_noint,Budapest (experienced),all
+intercept,0.13762016301064992,0.004475931351065263,helsinki1_noint_l,Helsinki,low
+intercept,6.343298468932962,0.3000477585567482,madrid1_noint_l,Madrid,low
+intercept,0.027508507710389596,0.007904177471683179,bp2_noint_l,Budapest (residental),low
+intercept,0.07198315005868768,0.0035564353124187906,bp1_noint_l,Budapest (experienced),low
+intercept,0.12978356917487757,0.00408657546891132,helsinki1_noint_h,Helsinki,high
+intercept,8.413277622065777,0.2749176347808871,madrid1_noint_h,Madrid,high
+intercept,0.024402544686870056,0.008155708796112425,bp2_noint_h,Budapest (residental),high
+intercept,0.09853416236339692,0.0028981586246753363,bp1_noint_h,Budapest (experienced),high
+ellipticity,0.0001666024687412964,0.0007438349008185783,helsinki1_noint,Helsinki,all
+ellipticity,-0.22271352230554625,0.08494512026047689,madrid1_noint,Madrid,all
+ellipticity,-0.0025328018669462326,0.003667759805919818,bp2_noint,Budapest (residental),all
+ellipticity,0.01614859940168731,0.0015243286401111233,bp1_noint,Budapest (experienced),all
+ellipticity,-0.0006694427140590537,0.0006172815532056513,helsinki1_noint_l,Helsinki,low
+ellipticity,-0.1480744993439786,0.07914141998220971,madrid1_noint_l,Madrid,low
+ellipticity,0.014061751046359988,0.0050456058740280495,bp2_noint_l,Budapest (residental),low
+ellipticity,0.017354458045484945,0.0021004357780098023,bp1_noint_l,Budapest (experienced),low
+ellipticity,0.0025509496276243894,0.001321091895876537,helsinki1_noint_h,Helsinki,high
+ellipticity,0.19197482111017145,0.1449155189004364,madrid1_noint_h,Madrid,high
+ellipticity,-0.018364432280504984,0.0053215365893698515,bp2_noint_h,Budapest (residental),high
+ellipticity,0.015396337560054039,0.0020725816630611325,bp1_noint_h,Budapest (experienced),high
