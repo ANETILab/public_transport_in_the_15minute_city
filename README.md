@@ -3,18 +3,11 @@
 ## requirements
 
 To calculate the accessibility isochrones this code uses the [Valhalla](https://github.com/valhalla/valhalla) routing engine via [pyvalhalla](https://github.com/gis-ops/pyvalhalla).
-As pyvalhalla is no longer developed, it cannot work with Python newer with 3.11.
 
-To install an older Python version, `pyenv` was used.
-
-```
-pyenv install 3.11.11
-```
-
-The dependencies are managed with [poetry](https://python-poetry.org/).
+The dependencies are managed with [uv](https://docs.astral.sh/uv/).
 
 ```
-poetry lock && poetry install
+uv sync
 ```
 
 ## OSM source
@@ -331,9 +324,7 @@ The Spanish income data is from [INE. Instituto Nacional de Estadística](https:
 
 ## Caveats
 
-<!-- As this code uses a precompiled Valhalla network from an old, 2023 September OSM snapshot. -->
 - The Budapest isochrones are calculated with an old, 2023 September OSM snapshot.
-- [pyvalhalla](https://github.com/gis-ops/pyvalhalla) in unmaintained in its current form and not compatible with Python 3.12+, so this code requires a special environment with Python 3.11
 
 ## Licensing
 
