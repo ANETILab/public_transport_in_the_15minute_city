@@ -1,56 +1,57 @@
-[tool.poetry]
-name = "calculate accessibility"
+[project]
+name = "calculate_accessibility"
 version = "0.1.0"
 description = ""
-authors = ["pintergreg <pintergreg@gmail.com>"]
+authors = [{ name = "pintergreg", email = "pintergreg@gmail.com" }]
+requires-python = ">=3.14"
 readme = "README.md"
-package-mode = false
+dependencies = [
+    "pandas>=2.3,<3",
+    "geopandas>=1.2,<2",
+    "numpy>=2.5",
+    "osmnx>=2.1,<3",
+    "matplotlib>=3.11,<4",
+    "shapely>=2.2,<3",
+    "pyyaml>=6.0,<7",
+    "pyogrio>=0.13",
+    "pyarrow>=26",
+    "h3>=4.5",
+    "contextily>=1.7,<2",
+    "seaborn>=0.13,<0.14",
+    "pyvalhalla>=3.9,<4",
+    "routingpy>=1.3,<2",
+    "scipy>=1.18,<2",
+    "scikit-learn>=1.9,<2",
+    "folium>=0.20",
+    "jenkspy>=0.4,<0.5",
+    "mapclassify>=2.11,<3",
+    "altair>=6.3",
+    "vincent>=0.4,<0.5",
+    "structlog>=26.1,<27",
+    "tabulate>=0.10.0",
+    "branca>=0.8.2,<0.9",
+    "python-xz>=0.5.0,<0.6",
+    "statsmodels>=0.15",
+    "stargazer>=0.0.7",
+    "openpyxl>=3.1.5,<4",
+    "cmcrameri>=1.10,<2",
+    "matplotlib-scalebar>=0.9.0",
+]
 
-[tool.poetry.dependencies]
-python = "3.11.*"
-pandas = "^2.2"
-geopandas = "^1.0"
-numpy = "^1.26"
-osmnx = "^2.0"
-matplotlib = "^3.8"
-shapely = "^2.0"
-pyyaml = "^6.0"
-pyogrio = "^0.7"
-pyarrow = ">=16"
-h3 = "^3.7"
-contextily = "^1.6"
-seaborn = "^0.13"
-pyvalhalla = "^3.2"
-routingpy = "^1.3"
-scipy = "^1.13"
-scikit-learn = "^1.4"
-folium = "^0.16"
-jenkspy = "^0.4"
-mapclassify = "^2.6"
-altair = "^5.3"
-vincent = "^0.4"
-structlog = "^24.4"
-tabulate = "^0.9.0"
-branca = "^0.8.1"
-python-xz = "^0.5.0"
-statsmodels = "^0.14.4"
-stargazer = "^0.0.7"
-openpyxl = "^3.1.5"
-cmcrameri = "^1.9"
-matplotlib-scalebar = "^0.9.0"
+[dependency-groups]
+dev = [
+    "ipykernel>=7",
+    "pandas-stubs>=2.3,<3",
+    "types-geopandas>=1.2,<2",
+    "types-shapely>=2.1,<3",
+    "types-pyyaml>=6.0,<7",
+    "rich>=15",
+    "types-networkx>=3.6,<4",
+]
 
-[tool.poetry.group.dev.dependencies]
-ipykernel = "^6.29"
-pandas-stubs = "^2.2"
-types-geopandas = "^1.0"
-types-shapely = "^2.0"
-types-pyyaml = "^6.0"
-rich = "^13.7"
-types-networkx = "^3.5"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+package = false
+default-groups = "all"
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
